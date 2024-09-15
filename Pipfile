@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+sweetviz = "==2.2.1"
+numpy = "==1.23.4"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.9"
